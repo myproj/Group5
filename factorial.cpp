@@ -3,9 +3,9 @@
 int factorial(int n)
 {
 	if(N<0){
-	cout<<"Enter positive number\n";
+	cout<<"Enter positive number\n\n";
 	cin>>n;
-	factorial(n)
+	factorial(n);
 }
     if(n!=1){
 	return(n * factorial(n-1));
