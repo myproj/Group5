@@ -3,7 +3,7 @@
 int factorial(int n)
 {
 	if(N<0){
-	printf<<"Enter positive number\n\n";
+	cout<<"Enter positive number\n\n";
 	cin>>n;
 	factorial(n);
 }
