@@ -6,7 +6,8 @@ int factorial(int n)
 	cout<<"Enter positive number\n\n";
 	cin>>n;
 	factorial(n);
-	//return -1;	
+	//return -1;
+	//this is master	
 }
     if(n!=1){
 	return(n * factorial(n-1));
