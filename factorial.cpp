@@ -8,6 +8,9 @@ int factorial(int n)
 	factorial(n);
 	//return -1;
 	//this is master	
+
+	return -1;	
+
 }
     if(n!=1){
 	return(n * factorial(n-1));
