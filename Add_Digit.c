@@ -8,7 +8,12 @@ int main()
    scanf("%d",&n);
    // Code is to add digits of a number
     //Comments added to the file
-   while(n != 0)
+   int check = 0;
+   if(n<0){
+      n*=-1;
+      check = 1;
+   }
+   while(n/10!= 0)
    {
       remainder = n % 10;
 	  printf("The Remainder is %d\n", remainder);
@@ -17,6 +22,19 @@ int main()
       n = n / 10;
 	  printf("The n is %d\n", n);
    }
+   if(check){
+     n*=-1; 
+     remainder = n % 10;
+      sum = sum + remainder;
+   }
+   else
+   {
+      remainder = n % 10;
+      sum = sum + remainder;
+   }
+
+   printf("The Sum is %d\n", sum);
+   printf("The Remainder is %d\n", remainder);
  
    printf("Sum of digits of entered number = %d\n",sum);
  
