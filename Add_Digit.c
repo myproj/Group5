@@ -6,7 +6,8 @@ int main()
  
    printf("Enter an integer\n");
    scanf("%d",&n);
-    
+   // Code is to add digits of a number
+    //Comments added to the file
    while(n != 0)
    {
       remainder = n % 10;
